@@ -507,42 +507,6 @@ CREATE INDEX idx_transactions_type ON transactions(type);
 
 ---
 
-## 🚀 Deployment
-
-### Deploy to Render.com (Free)
-
-1. Push code to GitHub repository
-2. Sign up at [Render.com](https://render.com)
-3. Click "New +" → "Web Service"
-4. Connect your GitHub repository
-5. Configure:
-   - **Name:** `finance-backend-api`
-   - **Environment:** `Node`
-   - **Build Command:** `npm install`
-   - **Start Command:** `npm start`
-6. Add environment variables:
-   - `JWT_SECRET` = `your_production_secret`
-   - `DB_TYPE` = `sqlite`
-   - `NODE_ENV` = `production`
-7. Click "Create Web Service"
-
-Your API will be available at: `https://finance-backend-api.onrender.com`
-
-### Deploy to Heroku
-
-```bash
-# Install Heroku CLI
-# Create Heroku app
-heroku create finance-backend-api
-
-# Set environment variables
-heroku config:set JWT_SECRET=your_production_secret
-heroku config:set DB_TYPE=sqlite
-heroku config:set NODE_ENV=production
-
-# Deploy
-git push heroku main
-```
 
 ---
 
@@ -603,48 +567,8 @@ git push heroku main
 **Sasank Kumari Chintada**  
 - Email: sasichinthada248@gmail.com  
 - GitHub: [@sasichintada](https://github.com/sasichintada)  
-- Assignment: Zorvyn FinTech - Backend Developer Intern
 
 ---
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-```
-MIT License
-
-Copyright (c) 2026 Sasank Kumari Chintada
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions...
-
-Full license text in LICENSE file.
-```
-
----
-
-## 🙏 Acknowledgments
-
-- **Zorvyn FinTech** – For the assignment opportunity and clear requirements
-- **Express.js** – For the robust web framework
-- **SQLite** – For the lightweight embedded database
-- **Swagger/OpenAPI** – For the interactive documentation tools
-- **jsonwebtoken** – For secure authentication
-- **bcryptjs** – For password security
-
----
-
-## 📞 Support
-
-For questions or issues:
-- Open an issue on [GitHub](https://github.com/YOUR_USERNAME/finance-backend/issues)
-- Email: sasichinthada248@gmail.com
-
 ---
 
 **🎉 Ready to use! Access API at http://localhost:3000**  
