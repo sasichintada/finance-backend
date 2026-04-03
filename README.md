@@ -147,12 +147,6 @@ const ROLE_PERMISSIONS = {
 
 ---
 
-## 📸 API Documentation (Swagger UI)
-
-![Swagger UI](https://via.placeholder.com/800x400?text=Swagger+UI+Screenshot)
-
-*Interactive API documentation available at `/api-docs` endpoint*
-
 ### Sample API Responses
 
 **Dashboard Summary:**
